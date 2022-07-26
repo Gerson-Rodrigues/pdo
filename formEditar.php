@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="estilo.css"/>
+  <title>Editar</title>
+</head>
+<body>
+<div>
 <?php
 include_once "conexao.php";
 
@@ -13,3 +22,6 @@ Login: <input type="text" name="login" value="<?php echo $linha['login'] ?>" id=
 <input type="hidden" name="id" value="<?php echo $linha['idlogin']?>">
 <input type="submit" value="Editar">
 </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+html {
+    font: 15pt Arial;
+}
+body {
+    background: url("programmer-wallpaper-preview.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+div::before {
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #273747;
+    padding: 35px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+
+div {
+    background-color: rgba(255,255,255,.8);
+    margin: 200px auto 200px auto;
+    padding: 40px;
+    width: 590px;
+    min-height:450px;
+}
+
+a {
+    color: #1440ee;
+    text-decoration: none;
+    font-weight: bold;
+    font: 14pt Times;
+}
+
+u {
+    color: #0f8e13;
+    text-decoration: none;
+    font-weight: bold;
+    font: 18pt Helvetica;
+}
+
+b {
+    color: #ee1414;
+    text-decoration: none;
+    font-weight: bold;
+    font: 14pt Times;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    align-items: center;
+    width: 560px;
+    line-height: 3ch;
+
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
+
+.botao {
+	background-color: #273747;
+	color: white;
+	padding: 8px;
+	box-shadow: 2px 2px 1px #aaaaaa;
+}
